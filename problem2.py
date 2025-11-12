@@ -26,3 +26,15 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+
+a = input("enter a number")
+b = input("enter a second number")
+
+if a > b and a % b == 0:
+    print(f"{b} is a factor of {a}")
+elif b > a and b % a == 0:
+print (f"{a} is a factor of{b} ")
+elif a >=b and a % b == 0:
+    print (f"{b} is not a factor of {a}")
+    else:
+        print(f"{a} is not a factor of {b}")
